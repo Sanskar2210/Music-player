@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    background-image: url('./cover/cover1.jpg');
+    background-size: 1550px 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.player-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.cover {
+    margin: 20px 0;
+}
+
+.cover img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.music-info h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.music-info p {
+    font-size: 15px;
+    color: white;
+}
+
+.controls {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.progress-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 6px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.progress {
+    background-color: #61dafb;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+}
+
+.time-info {
+    font-size: 12px;
+    color: #ccc;
+}
